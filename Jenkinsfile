@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                touch '/home/oss/testing123'
+                sh 'touch /home/oss/testing123'
             }
         }
     }
