@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'touch /home/jenkins/testing123'
+                sh '/home/jenkins/primary.sh'
             }
         }
     }
